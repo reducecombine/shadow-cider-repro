@@ -1,0 +1,8 @@
+{:source-paths ["src"]
+ :builds {:dev {:target :browser
+                :output-dir "public/dev/js"
+                :asset-path "/js"
+                :modules {:main {:entries [a]}}
+                :dev {:compiler-options {:output-feature-set :es6}}
+                :devtools {:http-root    "public/dev"
+                           :http-port    8700}}}}

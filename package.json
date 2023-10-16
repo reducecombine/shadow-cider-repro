@@ -1,0 +1,14 @@
+{
+  "name": "foo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "EPL-2.0",
+  "dependencies": {
+    "shadow-cljs": "2.25.8"
+  },
+  "scripts": {
+    "shadow-cljs": "shadow-cljs"
+  }
+}
